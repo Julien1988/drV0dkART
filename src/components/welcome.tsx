@@ -9,7 +9,7 @@ function Skull() {
         <ParallaxProvider>
 
             <div className={'relative flex justify-center'}>
-                <Image className={'absolute z-50'}
+                <Image className={'absolute z-30'}
                        src='/skull/skull_top.png'
                        width={300}
                        height={300}
@@ -21,7 +21,7 @@ function Skull() {
                 >
                     <h2 className={'rubik-glitch text-center translate-y-24 text-white text-2xl'}>Think out of the
                         box</h2>
-                    <Image className={'-translate-y-10 z-50'}
+                    <Image className={'-translate-y-10 z-30'}
                            src='/skull/skull_bot.png'
                            width={300}
                            height={300}
@@ -36,7 +36,7 @@ function Skull() {
 
 export default function Welcome() {
     return (
-        <div className={'bg-[#2f2d2d] h-[200vh] w-screen'}>
+        <div className={'bg-[#2f2d2d] h-screen w-screen pb-64'}>
             <div className={'pt-24 pb-12'}>
                 <h2 className={'rubik-doodle-triangles text-pink-800 text-4xl text-center'}>Welcome to the weird</h2>
             </div>

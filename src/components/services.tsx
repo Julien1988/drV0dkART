@@ -40,8 +40,8 @@ export default function Services() {
     let listKey = 0;
     return (
         <ParallaxProvider>
-            <div className={'h-1/2 w-full bg-[#2f2d2d] z-50 absolute overflow-hidden'}>
-                <ul className={'flex flex-col justify-center items-center h-full text-white pb-16 -translate-y-32'}>
+            <div className={'h-full w-full bg-[#2f2d2d] z-50 absolute overflow-hidden '}>
+                <ul className={'flex flex-col justify-center items-center h-full text-white md:pb-16 '}>
                     {
                         listServices.map(item => (<Item item={item} key={item.id}/>))
                     }
