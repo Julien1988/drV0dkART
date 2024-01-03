@@ -11,6 +11,7 @@ export default function Home() {
             <Transition color='bg-[#2f2d2d]'/>
             <Welcome/>
             <Services/>
+
             <Contact/>
         </main>
     )
