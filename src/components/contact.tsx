@@ -3,6 +3,7 @@
 import {Parallax, ParallaxProvider} from "react-scroll-parallax";
 
 
+// @ts-ignore
 function ListItem({text}) {
     return (
         <li>

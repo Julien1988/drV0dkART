@@ -15,7 +15,7 @@ const Component = () => {
                     <div ref={parallax.ref} className={''}>
                         <h1><span
                             className={'rubik'}>DrV0dk</span><span
-                            className={'permanent'}>.</span><span className={'lacquer'}>ART</span>
+                            className={'permanent'}>.</span><span className={'lacquer text-9xl'}>ART</span>
                         </h1>
                     </div>
                 </div>
