@@ -24,7 +24,7 @@ export default function Contact() {
                     <ul className={' bg-[#2f2d2d] text-white lacquer text-xl mx-4 p-8 text-center'}>
                         {
                             listContact.map((item) =>
-                                <ListItem text={item}/>
+                                <ListItem text={item} key={item}/>
                             )
                         }
 
