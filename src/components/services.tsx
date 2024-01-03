@@ -12,10 +12,8 @@ function Item({item}) {
         return (
             <li className={'py-4'}>
                 <Parallax
-                    translateX={['-400%', '0%']}
+                    translateX={['-100', '50']}
                     speed={-5}
-                    startScroll={1000}
-                    endScroll={2500}
                 >
                     <p className={'lacquer text-3xl'}>
                         {item.text}
@@ -27,10 +25,8 @@ function Item({item}) {
     return (
         <li className={'py-4'}>
             <Parallax
-                translateX={['400%', '0%']}
+                translateX={['100', '-50']}
                 speed={-5}
-                startScroll={2000}
-                endScroll={2500}
             >
                 <p className={'lacquer text-3xl'}>
                     {item.text}
@@ -48,8 +44,8 @@ export default function Services() {
     let listKey = 0;
     return (
         <ParallaxProvider>
-            <div className={'h-1/2 w-screen bg-[#2f2d2d]'}>
-                <ul className={'flex flex-col justify-center items-center h-full text-white -translate-y-48'}>
+            <div className={'h-1/2 w-screen bg-[#2f2d2d] z-50 absolute'}>
+                <ul className={'flex flex-col justify-center items-center h-full text-white pb-16 -translate-y-32'}>
 
                     {
 
