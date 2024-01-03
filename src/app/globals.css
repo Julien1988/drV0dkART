@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Martian+Mono:wght@400;600&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik+Doodle+Triangles&family=Rubik+Glitch&display=swap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Martian+Mono:wght@400;600&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik+Doodle+Triangles&family=Rubik+Glitch&display=swap&family=Megrim&display=swap&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -26,4 +27,8 @@
 
 .rubik-glitch {
     font-family: 'Rubik Glitch', monospace;
+}
+
+.megrim {
+    font-family: 'Megrim', monospace;
 }

@@ -1,9 +1,11 @@
 'use client'
 import {Parallax, ParallaxProvider} from "react-scroll-parallax";
 
-// @ts-ignore
+
 /*startScroll={2000}
                 endScroll={2500}*/
+
+// @ts-ignore
 function Item({item}) {
 
     if (item.id % 2 !== 0) {
