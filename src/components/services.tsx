@@ -1,10 +1,6 @@
 'use client'
 import {Parallax, ParallaxProvider} from "react-scroll-parallax";
 
-
-/*startScroll={2000}
-                endScroll={2500}*/
-
 // @ts-ignore
 function Item({item}) {
 
@@ -49,7 +45,7 @@ export default function Services() {
 
                     {
 
-                        listServices.map(item => (<Item item={item}/>))
+                        listServices.map(item => (<Item item={item} key={item.id}/>))
                     }
 
                 </ul>
