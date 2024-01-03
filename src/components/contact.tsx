@@ -21,7 +21,7 @@ export default function Contact() {
                 <div className={'z-[99] relative flex flex-col justify-center translate-y-96'}>
                     <h2 className={'megrim text-pink-800 text-8xl text-center pb-8'}>Contact</h2>
 
-                    <ul className={' bg-[#2f2d2d] text-white lacquer text-xl mx-4 p-8'}>
+                    <ul className={' bg-[#2f2d2d] text-white lacquer text-xl mx-4 p-8 text-center'}>
                         {
                             listContact.map((item) =>
                                 <ListItem text={item}/>
