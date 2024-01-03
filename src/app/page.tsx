@@ -8,7 +8,7 @@ export default function Home() {
             <Title/>
 
 
-            <Transition color='bg-amber-600'/>
+            <Transition color='bg-[#2f2d2d]'/>
             <Welcome/>
             <div className={'h-screen w-screen bg-blue-400'}>TEST</div>
         </main>
